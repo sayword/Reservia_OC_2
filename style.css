@@ -315,6 +315,10 @@ button {
 .vignette_hebergement:hover {
 	transform: scale(1.05);
 }
+.vignette_hebergement a:visited {
+	color: black;
+}
+
 #conteneur3 {
 	background-color: #F2F2F2;
 	width: 62%;
@@ -385,6 +389,10 @@ button {
 .vignette_populaire:hover {
 	transform: scale(1.05);
 }
+.vignette_populaire a:visited {
+	color: black;
+}
+
 #titrepop {
 	display: flex;
 	align-items: center;
@@ -441,6 +449,9 @@ button {
 }
 #conteneur8 h3 {
 	margin-left: 12px;
+}
+#conteneur8 a:visited {
+	color: black;
 }
 #vieuporte2,
 #parce2,
@@ -698,6 +709,7 @@ header,
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+	
 	#section1 {
 		width: auto;
 	}
