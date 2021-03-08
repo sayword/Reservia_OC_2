@@ -282,12 +282,12 @@ button {
 	margin-right: 1%;
 	border: #d8d8d8 solid 1px;
 }
-#aideaide .fas {
+#information .fas {
 	padding: 1%;
 	padding-bottom: 0.5%;
 	padding-top: 0.5%;
 }
-#aideaide {
+#information {
 	display: flex;
 	align-items: baseline;
 	margin-bottom: -1%;
@@ -709,6 +709,10 @@ header,
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+	#filtre h3 {
+		font-size: 85%;
+	}
 	
 	#section1 {
 		width: auto;
@@ -729,7 +733,7 @@ header,
 		font-size: 100%;
 	}
 	.vignette_populaire {
-		font-size: 98%;
+		font-size: 85%;
 	}
 	header h2,
 	header p {
@@ -740,7 +744,7 @@ header,
 	}
 	#conteneur1 {
 		margin-left: 0%;
-		
+		margin-right: 0%;
 	}
 	.filtre1,
 	.filtre2,
@@ -988,7 +992,7 @@ header,
 	#aide1 {
 		width: 100%;
 	}
-	#aideaide {
+	#information {
 		width: 150%;
 	}
 	#p-aide {
@@ -1001,7 +1005,7 @@ header,
 		margin-left: 25%;
 		margin-bottom: 110%;
 	}
-	#aideaide .fas {
+	#information .fas {
 		padding: 1.5%;
 		padding-left: 2.5%;
 		padding-right: 2.5%;
