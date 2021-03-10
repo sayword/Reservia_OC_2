@@ -40,7 +40,6 @@ header p {
 }
 #conteneur1 {
 	display: flex;
-	justify-content: space-between;
 	margin-left: 16.9%;
 	margin-right: 11%;
 }
@@ -56,6 +55,7 @@ nav {
 	margin-right: 3%;
 	color: #0065FC;
 	justify-content: space-between;
+	margin-left: 50%;
 }
 a:link {
 	text-decoration: none;
@@ -63,7 +63,7 @@ a:link {
 .navi2 a:visited {
 	color: #0065FC;
 }
-.navi3 a:visited {
+#nav3 a:visited {
 	color: #0065FC;
 }
 #navi2 a:visited {
@@ -79,17 +79,18 @@ a:link {
 	color: #494949;
 }
 #nav3 {
-	display: none;
+	padding-top: 1.6%;
+    margin-left: 2%;
 }
 .navi1 {
 	padding-left: 10%;
 	padding-top: 7%;
 }
 .navi2 {
-	border-top: #0065FC solid 2px;
-	padding-top: 6%;
-	width: 50%;
-	text-align: center;
+	border-top: #0065FC solid 2.5px;
+    padding-top: 6%;
+    width: 60%;
+    text-align: center;
 }
 #conteneur2 {
 	display: flex;
@@ -570,6 +571,7 @@ button {
 }
 nav {
 	display: flex;
+    width: 25%;
 }
 #conteneur4 img {
 	width: 100%;
@@ -577,7 +579,7 @@ nav {
 	border-radius: 8px 8px 0px 0px;
 }
 .vignette_hebergement {
-	width: 28.5%;
+	width: 89.5%;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 140%;
@@ -622,9 +624,6 @@ header,
 	}
 }
 @media screen and (max-width: 1390px) {}@media screen and (max-width: 1284px) {
-	nav {
-		margin-right: 10%;
-	}
 	.navi2 {
 		width: 100%;
 	}
@@ -669,9 +668,6 @@ header,
 	.filtre4 {
 		width: 340px;
 		margin-left: 1%;
-	}
-	nav {
-		margin-right: 14%;
 	}
 	.filtre1 .fas,
 	.filtre2 .fas,
@@ -830,24 +826,28 @@ header,
 		margin-bottom: 7%;
 	}
 	#Titre {
+		order: 1;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		    width: 25%;
 	}
 	nav {
-		width: 115%;
+		order: 3;
+		width: 113.4%;
 		margin-left: -7%;
 		display: flex;
 	}
 	#nav1 {
-		order: -1;
+		order: 2;
 		display: none;
 	}
 	#navi2 {
 		margin-right: 0%;
 	}
 	#nav3 {
-		display: contents;
+		order: 2;
+	
 	}
 	.navi1 {
 		border-bottom: #cccccc solid 3px;
@@ -857,9 +857,13 @@ header,
 		width: 100%;
 		text-align: center;
 	}
-	.navi3 {
-		width: 100%;
+	#nav3 {
+		width: 10%;
+		margin-left: 78%;
+		margin-top: -10%;
+		margin-bottom: 5%;
 	}
+	.navi3{}
 	.navi2 {
 		border-bottom: #0065FC solid 3px;
 		border-top: 0px;
@@ -993,7 +997,7 @@ header,
 		width: 100%;
 	}
 	#information {
-		width: 150%;
+		width: 140%;
 	}
 	#p-aide {
 		width: 450%;
@@ -1177,4 +1181,11 @@ header,
 		margin-bottom: 5%;
 	}
 	/*-------------------------------------------------------------------*/
+}
+@media screen and (max-width: 372px) {
+
+	#rech2 .fas{margin-left: 35%;}
+}
+@media screen and (max-width: 295px) {
+	#rech2 .fas{margin-left: 5%;}
 }
