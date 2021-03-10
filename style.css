@@ -312,6 +312,7 @@ button {
 	box-shadow: -1px 0px 28px -14px rgba(0, 0, 0, 0.52);
 	line-height: 160%;
 	transition: all .2s ease-in-out;
+	color: #000000;
 }
 .vignette_hebergement:hover {
 	transform: scale(1.05);
@@ -386,6 +387,7 @@ button {
 	-moz-box-shadow: -1px 0px 48px -14px rgba(0, 0, 0, 0.52);
 	box-shadow: -1px 0px 28px -14px rgba(0, 0, 0, 0.52);
 	transition: all .2s ease-in-out;
+	color: #000000;
 }
 .vignette_populaire:hover {
 	transform: scale(1.05);
@@ -799,7 +801,6 @@ header,
 	}
 	/* début header*/
 	header {
-		width: 88%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -811,32 +812,42 @@ header,
 		font-size: 120%;
 		margin-top: 10px;
 		margin-bottom: 10%;
+		width: 88%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	header h2 {
 		font-weight: bold;
 		font-size: 170%;
 		line-height: 28px;
 		margin-bottom: 4%;
+		width: 88%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	#conteneur1 {
 		margin-left: 0%;
-		flex-direction: column;
 		margin-right: 0%;
 		font-size: 120%;
 		margin-bottom: 7%;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	#Titre {
 		order: 1;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		    width: 25%;
+		width: 25%;
+		margin-left: 5%;
+
 	}
 	nav {
 		order: 3;
-		width: 113.4%;
-		margin-left: -7%;
+		width: 100%;
 		display: flex;
+		margin-left: 0%;
+		margin-right: 0%;
 	}
 	#nav1 {
 		order: 2;
@@ -886,6 +897,7 @@ header,
 	}
 	#icone_localisation {
 		margin-right: 2%;
+		margin-left: 5%;
 	}
 	#barre_recherche {
 		width: 60%;
@@ -897,7 +909,7 @@ header,
 		padding-left: 5%;
 	}
 	input.search {
-		width: 130%;
+		width: 115%;
 	}
 	#rech1 {
 		display: none;
@@ -908,7 +920,7 @@ header,
 	#rech2 .fas {
 		background-color: #0065FC;
 		border-radius: 30% 30% 30% 30%;
-		margin-left: 120%;
+		margin-left: 39%;
 		font-size: 115%;
 	}
 	/*Fin header*/
@@ -1184,8 +1196,5 @@ header,
 }
 @media screen and (max-width: 372px) {
 
-	#rech2 .fas{margin-left: 35%;}
-}
-@media screen and (max-width: 295px) {
-	#rech2 .fas{margin-left: 5%;}
+	#rech2 .fas{margin-left: 0%;}
 }
